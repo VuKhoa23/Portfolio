@@ -1,7 +1,7 @@
 import classes from "./page.module.css";
 
 export const metadata = {
-  title: "Khoa Vu    - About",
+  title: "Khoa Vu - About",
   description: "Porfolio",
 };
 
@@ -15,7 +15,7 @@ export default function About() {
         <div>
           <section className={classes["introduce-section"]}>
             <p1>About me</p1>
-            <p>My name is Vu Anh Khoa. I'm a third year student at VNUHCM - University of Science</p>
+            <p>My name is Vu Anh Khoa. I&apos;m a third year student at VNUHCM - University of Science</p>
           </section>
           <section className={classes["introduce-section"]}>
             <p1>My tech stack</p1>

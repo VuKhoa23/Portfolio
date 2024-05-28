@@ -1,0 +1,18 @@
+.introduce-section{
+    height: fit-content;
+}
+
+.introduce-section p1{
+    font-weight: bold;
+}
+
+.main{
+    margin: 2rem;
+    margin-top: 4rem;
+
+}
+
+.image-container{
+    align-items: center;
+    text-align: center;
+}

@@ -1,5 +1,6 @@
 import classes from "./page.module.css";
-
+import Image from "next/image";
+import profilePic from "../../public/me.jpg"
 export const metadata = {
   title: "Khoa Vu - About",
   description: "Porfolio",
@@ -9,7 +10,9 @@ export default function About() {
   return (
     <container className={classes.main + " row"}>
       <div className={classes["image-container"] + "col col-xl-5 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"}>
-        <img src={"/cropped.jpg"} alt="Portfolio Image" height="500rem" />
+        <div style={{height: 30 + "rem", width: 25 + 'rem', position: "relative"}}>
+            <Image src={profilePic} alt="Portfolio Image" layout="fill"/>
+        </div>
       </div>
       <main className={"col col-xl-7 col-lg-12 col-md-12 col-sm-12"}>
         <div>

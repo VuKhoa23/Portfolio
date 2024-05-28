@@ -1,9 +1,5 @@
 import classes from './page.module.css'
  
-export function Avatar({ id, alt }) {
-  return <Image src={`/avatars/${id}.png`} alt={alt} width="64" height="64" />
-}
-
 export default function Home() {
   return (
     <main className={classes.main}>

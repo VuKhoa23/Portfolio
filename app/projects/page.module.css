@@ -4,8 +4,19 @@
     height: 85%;
 }
 
-.project{
+.project {
     background-color: rgb(158, 223, 217);
     height: 40%;
     border-radius: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.project-header{
+    margin-bottom: 0.5rem;
+}
+
+.project-header h3, .project-header p{
+    margin: 0;
+    padding: 0;
 }

@@ -8,7 +8,7 @@ export default function Project({ project }) {
       <div
         style={{ height: 25 + "rem", width: 100 + "%", position: "relative" }}
       >
-        <Image src={`/${project.imgSrc}`} layout="fill" />
+        {project.img}
       </div>
       <div className="d-flex flex-row justify-content-between">
         <h1>{project.title}</h1>
@@ -20,7 +20,7 @@ export default function Project({ project }) {
               height: 3 + "rem",
               width: 3 + "rem",
               position: "relative",
-              marginRight: 0.5 + "rem"
+              marginRight: 0.5 + "rem",
             }}
           >
             <Image src={youtubeIcon} layout="fill" />

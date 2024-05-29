@@ -20,7 +20,7 @@ export default function About() {
           <section className={classes["introduce-section"]}>
             <h1>About me</h1>
             <p>
-              My name is Vu Anh Khoa. I&apos;m a third year student at VNUHCM - University of Science. Currently I&apos;m pursuing a Bachelor's Degree in Software Engineering.
+              My name is Vu Anh Khoa. I&apos;m a third year student at VNUHCM - University of Science. Currently I&apos;m pursuing a Bachelor&apos;s Degree in Software Engineering.
             </p>
             <p>
               I have a great passion for coding and problems solving. I

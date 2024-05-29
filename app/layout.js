@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           <Image
             src={backgroundImg}
             layout="fill"
-            objectFit="cover"
+            objectFit="fill"
             quality={100}
           />
         </div>

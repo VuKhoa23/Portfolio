@@ -2,8 +2,10 @@
     height: fit-content;
 }
 
-.introduce-section p1 {
-    font-weight: bold;
+.introduce-section p {
+    width: 70%;
+    font-size: 1.2rem;
+    text-wrap: balance;
 }
 
 .main {

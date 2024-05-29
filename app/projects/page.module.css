@@ -1,0 +1,11 @@
+.main {
+    margin: 2rem;
+    margin-top: 4rem;
+    height: 85%;
+}
+
+.project{
+    background-color: rgb(158, 223, 217);
+    height: 40%;
+    border-radius: 15px;
+}

@@ -7,9 +7,12 @@ export const metadata = {
 };
 
 const project = {
-  title: "E-Commerce",
+  title: "Portfolio Website",
   date: "Aug 20 - Dec 21",
-  description: <p> sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample</p>
+  description: <p>A portfolio website to showcase what I have done and learned, as well as to easily reach out to recruiters.</p>,
+  imgSrc: "portfolio-project.png",
+  youtube: "youtube.com",
+  github: "github.com"
 }
 
 export default function Projects() {

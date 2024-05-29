@@ -4,7 +4,7 @@ import youtubeIcon from "../../public/youtube-icon.png";
 import githubIcon from "../../public/github-icon.png";
 export default function Project({ project }) {
   return (
-    <div className={"col-xxl-5 col-xl-7 col-md-10 " + classes.project}>
+    <div className={"col-xxl-5 col-xl-7 col-md-10 " + classes.project} style={{height: 35 + "rem"}}>
       <div
         style={{ height: 25 + "rem", width: 100 + "%", position: "relative" }}
       >

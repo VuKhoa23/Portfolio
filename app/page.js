@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className={classes.main}>
         <section className={classes.introduce}> 
-            <p1>Hi !</p1>
+            <h1>Hi !</h1>
             <p>Im Khoa, a software engineer student.</p>
             <p>This is where I showcase my projects and what I&apos;ve learned from them.</p>
         </section>

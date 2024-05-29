@@ -10,7 +10,7 @@ export const metadata = {
 export default function About() {
   return (
     <container className={classes.main + " row"}>
-      <div className={classes["image-container"] + " col-12 col-xl-5 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"}>
+      <div className={classes["image-container"] + "d-xl-flex d-lg-flex d-md-none col-12 col-xl-5 justify-content-center"}>
         <div className="image" style={{ height: 95 + "%", width: 450 + "px", position: "relative" }}>
           <Image src={profilePic} alt="Portfolio Image" layout="fill" />
         </div>
@@ -31,11 +31,12 @@ export default function About() {
             <h2>Skills Overview</h2>
             <p>In my coding journey, I&apos;ve gained proficiency in several programming languages, each offering its unique strengths. While I&apos;m still sharpening my skills, I&apos;m comfortable navigating Java, Python, JavaScript/TypeScript, HTML/CSS, C/C++, and C#.</p>
             <h2>Backend Frameworks</h2>
-            <p>Exploring the world of backend development, I&apos;ve experimented with frameworks like ExpressJs, Django, and Spring Framework. While I&apos;m still refining my understanding, I&apos;ve found these tools invaluable in shaping robust backend solutions. <br/>I&apos;m also fluent in Relational Databases like MySQL and MS-SQL</p>
+            <p>Exploring the world of backend development, I&apos;ve experimented with frameworks like ExpressJs, Django, and Spring Framework. While I&apos;m still refining my understanding, I&apos;ve found these tools invaluable in shaping robust backend solutions.
+              <br />
+              I&apos;m also proficient in relational databases such as MySQL and MS-SQL. Moreover, I have hands-on experience with NoSQL databases like MongoDB.
+            </p>
             <h2>Frontend Explorations</h2>
-            <p>Frontend Explorations:
-
-On the frontend side, I&apos;ve played around with React, Angular, and Bootstrap. While I&apos;m not an expert yet, I&apos;ve created basic, functional interfaces that balance looks with usability.</p>
+            <span>On the frontend side, I&apos;ve played around with React, Angular, and Bootstrap. While I&apos;m not an expert yet, I&apos;ve created basic, functional interfaces that balance looks with usability.</span>
           </section>
         </div>
       </main>

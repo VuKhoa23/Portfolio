@@ -1,18 +1,19 @@
-.introduce-section{
+.introduce-section {
     height: fit-content;
 }
 
-.introduce-section p1{
+.introduce-section p1 {
     font-weight: bold;
 }
 
-.main{
+.main {
     margin: 2rem;
     margin-top: 4rem;
-
+    height: 85%;
 }
 
-.image-container{
+.image-container {
     align-items: center;
     text-align: center;
+    transition: 'transform 0.6s ease-in-out',
 }

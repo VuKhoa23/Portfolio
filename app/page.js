@@ -1,6 +1,6 @@
 import classes from "./page.module.css"
 import Image from "next/image";
-import profilePic from "../public/me2.jpg"
+import profilePic from "../public/images/me2.jpg"
 
 export default function Home() {
   return (

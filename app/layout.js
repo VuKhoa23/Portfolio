@@ -3,7 +3,7 @@ import "./globals.css";
 import "bootstrap/dist/css/bootstrap.css";
 import BootstrapClient from "@/components/BootstrapClient";
 import Header from "@/components/header";
-import backgroundImg from "../public/bg.png"
+import backgroundImg from "../public/images/bg.png"
 import Image from "next/image";
 
 export const metadata = {

@@ -1,6 +1,6 @@
 import classes from "./page.module.css";
 import Image from "next/image";
-import profilePic from "../../public/me-nobg.png"
+import profilePic from "../../public/images/me-nobg.png"
 export const metadata = {
   title: "Khoa Vu - About",
   description: "Porfolio",

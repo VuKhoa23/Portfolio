@@ -33,11 +33,11 @@ export default function Header() {
                 Projects
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className={"nav-link" + (pathName === '/licenses-certificates' ? ' header-active' : '')} href="/licenses-certificates">
                 Licenses & Certificates
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -2,6 +2,7 @@ import classes from "./page.module.css"
 import Project from "./project";
 import portfolioProjectImg from "../../public/images/portfolio-project.png"
 import weshoppingProjectImg from "../../public/images/weshopping-project.png"
+import weadsProjectImg from "../../public/images/weads-project.png"
 
 import Image from "next/image";
 export const metadata = {
@@ -31,7 +32,7 @@ const project3 = {
   title: "WeAds",
   description: <p>WeAds empowers officials to supervise billboard placements
     and manage personnel. Citizens access billboard information and can report issues or provide feedback.</p>,
-  img: <Image src={weshoppingProjectImg} layout="fill" alt="Portfolio Website Image" />,
+  img: <Image src={weadsProjectImg} layout="fill" alt="Portfolio Website Image" />,
   youtube: "https://www.youtube.com/watch?v=6SL3_YXreL0",
   github: "https://github.com/VuKhoa23/WE-ADS",
   techStack: "ExpressJs (NodeJs), EJS, Bootstrap"

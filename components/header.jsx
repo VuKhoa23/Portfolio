@@ -2,9 +2,13 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import "../app/page.module.css"
+import githubIcon from "../public/images/github-icon.png";
+import linkedinIcon from "../public/images/linkedin-icon.png";
+
+import Image from "next/image";
 export default function Header() {
-    const pathName = usePathname()
-    return (
+  const pathName = usePathname()
+  return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <Link className="navbar-brand" href="/">
@@ -22,7 +26,7 @@ export default function Header() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav me-auto">
             <li className="nav-item">
               <Link className={"nav-link" + (pathName === '/about' ? ' header-active' : '')} aria-current="page" href="/about">
                 About
@@ -39,7 +43,38 @@ export default function Header() {
               </Link>
             </li> */}
           </ul>
+          <div style={{width: 8 + "rem"}}> 
+            <button
+              className="redirect-button"
+              title="My LinkedIn Profile"
+              style={{
+                height: 2.2 + "rem",
+                width: 3 + "rem",
+                position: "relative",
+                marginRight: 1.5 + "rem"
+              }}
+            >
+              <Link href="https://www.linkedin.com/in/vukhoa23/" target="_blank">
+                <Image src={linkedinIcon} layout="fill" />
+              </Link>
+            </button>
+
+            <button
+              className="redirect-button"
+              title="My Github Profile"
+              style={{
+                height: 2.2 + "rem",
+                width: 3 + "rem",
+                position: "relative",
+              }}
+            >
+              <Link href="https://github.com/VuKhoa23" target="_blank">
+                <Image src={githubIcon} layout="fill" />
+              </Link>
+            </button>
+          </div>
         </div>
+
       </div>
     </nav>
   );

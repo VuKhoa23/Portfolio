@@ -2,6 +2,7 @@ import classes from "./page.module.css"
 import Project from "./project";
 import portfolioProjectImg from "../../public/images/portfolio-project.png"
 import weshoppingProjectImg from "../../public/images/weshopping-project.png"
+import chatProjectImg from "../../public/images/chat-project.png"
 import weadsProjectImg from "../../public/images/weads-project.png"
 
 import Image from "next/image";
@@ -25,7 +26,7 @@ const project2 = {
   img: <Image src={weshoppingProjectImg} layout="fill" alt="Portfolio Website Image" />,
   youtube: "https://www.youtube.com/watch?v=PuaeUYqUh_Q",
   github: "https://github.com/VuKhoa23/WeShopping",
-  techStack: "Java Spring, Angular, Bootstrap"
+  techStack: "Java Spring, Angular, Bootstrap, MySQL"
 }
 
 const project3 = {
@@ -35,8 +36,17 @@ const project3 = {
   img: <Image src={weadsProjectImg} layout="fill" alt="Portfolio Website Image" />,
   youtube: "https://www.youtube.com/watch?v=6SL3_YXreL0",
   github: "https://github.com/VuKhoa23/WE-ADS",
-  techStack: "ExpressJs (NodeJs), EJS, Bootstrap"
+  techStack: "ExpressJs (NodeJs), EJS, Bootstrap, MongoDB"
 }
+
+const project4 = {
+    title: "Java Chat Application",
+    description: <p>Java Chat Application. User can chat 1v1, create group chat, send files and images.</p>,
+    img: <Image src={chatProjectImg} layout="fill" alt="Portfolio Website Image" />,
+    youtube: "https://www.youtube.com/watch?v=l5mrJ43TOqU",
+    github: "https://github.com/VuKhoa23/Java-Chat-App",
+    techStack: "Java Swing, Socket, MySQL"
+  }
 
 
 export default function Projects() {
@@ -46,6 +56,7 @@ export default function Projects() {
         <Project project={project} />
         <Project project={project2} />
         <Project project={project3} />
+        <Project project={project4} />
       </container>
     </>
   );

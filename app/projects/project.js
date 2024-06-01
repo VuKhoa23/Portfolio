@@ -47,7 +47,7 @@ export default function Project({ project }) {
                 </div>
             </div>
             {project.description}
-            <p style={{padding: 0, margin: 0, textDecoration:"underline"}}>Tech stack: {project.techStack}</p>
+            <p style={{padding: 0, margin: 0 }}><b>Tech stack: </b><i>{project.techStack}</i></p>
         </div>
     );
 }

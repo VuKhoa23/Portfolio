@@ -28,7 +28,7 @@ export default function Home() {
                 <p>Im Khoa, a software engineer student.</p>
                 <p>This is where I showcase my projects and what I&apos;ve learned from them.</p>
               </section>
-              <div style={{ height: 30 + "rem", width: 34 + "rem", position: "relative" }}>
+              <div style={{ height: 30 + "rem", width: 27 + "rem", position: "relative" }}>
                 <Image src={profilePic} alt="Portfolio Image" layout="fill" />
               </div>
             </main>
